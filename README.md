@@ -51,4 +51,11 @@ this small scale example. However, manual vector normalization can be implemente
 
 Regarding Curves.cpp:
 
-This program has yet to be written. I will update this area of the readme when I have started on Curves.cpp
+Left clicking on the screen adds points to a list of control points to be used when drawing the B-Spline curve.
+
+Once finished adding points, right click to call the function that will draw the B-Spline curve.
+
+Press the 'q' key to clear the list of control points and start a new curve.
+
+NOTE: The program is not fully functional at this point. There is an issue drawing the curve, which I am currently looking
+into. The issue is with the blending functions, but at the moment I am not completely sure what must be done.
